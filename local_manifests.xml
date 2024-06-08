@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/garnet" name="afdulfauzan/android_device_xiaomi_garnet" remote="github" revision="14-derp" />
-  <project path="vendor/xiaomi/garnet" name="afdulfauzan/proprietary_vendor_xiaomi_garnet" remote="github" revision="14-derp" />
-  <project path="device/xiaomi/garnet-kernel" name="afdulfauzan/android_xiaomi_kernel_garnet" remote="github" revision="14-derp" />
-  <project path="hardware/xiaomi" name="afdulfauzan/android_hardware_xiaomi" remote="github" revision="lineage-21" />
+    <!--
+    * target: garnet
+    * rom: DerpFest
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/afdulfauzan" name="zan" />
+
+
+    <!-- Device -->
+    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="zan" revision="derp" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="zan" revision="derp" />
+
+    <!-- Kernel -->
+    <project name="android_device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="zan" revision="derp" />
+
+    <!-- Other -->
+    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="zan" revision="lineage-21" />
+    <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="zan" revision="lineage-21" />
+    <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
+
 </manifest>
