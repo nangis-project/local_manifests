@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/xiaomi/garnet" name="afdulfauzan/android_device_xiaomi_garnet" remote="github" revision="14-derp" />
+  <project path="vendor/xiaomi/garnet" name="afdulfauzan/proprietary_vendor_xiaomi_garnet" remote="github" revision="14-derp" />
+  <project path="kernel/xiaomi/garnet" name="afdulfauzan/android_xiaomi_kernel_garnet" remote="github" revision="14-derp" />
+  <project path="hardware/xiaomi" name="afdulfauzan/android_hardware_xiaomi" remote="github" revision="lineage-21" />
+</manifest>
