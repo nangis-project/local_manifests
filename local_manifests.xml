@@ -13,15 +13,15 @@
     <remove-project name="packages_apps_Updater" />
 
     <!-- Device -->
-    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="zan" revision="14-derp" />
+    <project name="device_xiaomi_garnet" path="device/xiaomi/garnet" remote="zan" revision="14-derp" />
 
     <!-- Vendor -->
-    <project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="zan" revision="14-derp" />
+    <project name="vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="zan" revision="14-derp" />
     <project name="vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="zan" revision="lineage-21" />
     <project name="vendor_derp" path="vendor/derp" remote="zan" revision="14" />
 
     <!-- Kernel -->
-    <project name="device_xiaomi_garnet-kernel" path="device/xiaomi/garnet-prebuilt" remote="zan" revision="14-derp" />
+    <project name="device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="zan" revision="14-derp" />
 
     <!-- Hardware -->
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="zan" revision="14-derp" />
