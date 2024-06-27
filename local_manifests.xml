@@ -24,7 +24,7 @@
 
     <!-- Other -->
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="zan" revision="14-derp" />
-    <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="zan" revision="lineage-21" />
+    <project name="vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="zan" revision="lineage-21" />
     <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
     <project name="vendor_derp" path="vendor/derp" remote="wob" revision="14" />
     <project name="packages_apps_Updater" path="packages/apps/Updater" remote="wob" revision="14" />
