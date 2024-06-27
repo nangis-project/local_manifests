@@ -21,7 +21,7 @@
     <project name="vendor_derp" path="vendor/derp" remote="zan" revision="14" />
 
     <!-- Kernel -->
-    <project name="device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="zan" revision="14-derp" />
+    <project name="device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="zan" revision="14-ksu" />
 
     <!-- Hardware -->
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="zan" revision="14-derp" />
