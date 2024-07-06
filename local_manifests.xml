@@ -7,16 +7,17 @@
 
     <!-- Remote -->
     <remote fetch="https://github.com/afdulfauzan" name="zan" />
+    <remote fetch="https://github.com/nangis-project" name="nangis" />
 
     <!-- Removed projects -->
     <remove-project name="vendor_derp" />
     <remove-project name="packages_apps_Updater" />
 
     <!-- Device -->
-    <project name="device_xiaomi_garnet" path="device/xiaomi/garnet" remote="zan" revision="14-derp" />
+    <project name="device_xiaomi_garnet" path="device/xiaomi/garnet" remote="nangis" revision="derp" />
 
     <!-- Vendor -->
-    <project name="vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="zan" revision="14-derp" />
+    <project name="vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="nangis" revision="derp" />
     <project name="vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="zan" revision="lineage-21" />
     <project name="vendor_derp" path="vendor/derp" remote="zan" revision="14" />
     <!-- <project name="vendor_bcr" path="vendor/bcr" remote="zan" revision="main" /> -->
@@ -29,6 +30,6 @@
 
     <!-- Packages -->
     <project name="packages_apps_Updater" path="packages/apps/Updater" remote="zan" revision="14" />
-    <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="zan" revision="main" />
+    <!-- <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="zan" revision="main" /> -->
 
 </manifest>
