@@ -18,7 +18,6 @@
 
     <!-- Vendor -->
     <project name="vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="nangis" revision="14" />
-    <project name="garnet-stuff/vendor_xiaomi_garnet-firmware" path="vendor/xiaomi/firmware" remote="github" revision="14" />
     <project name="vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="nangis" revision="14" />
     <project name="vendor_derp" path="vendor/derp" remote="zan" revision="14" />
 
