@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="nangis-project/device_xiaomi_garnet" path="device/xiaomi/garnet" remote="github" revision="derp" />
+    <project name="nangis-project/device_xiaomi_garnet" path="device/xiaomi/garnet" remote="github" revision="14" />
     <project name="nangis-project/device_xiaomi_garnet-kernel" path="device/xiaomi/garnet-kernel" remote="github" revision="14" />
     <project name="nangis-project/vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="github" revision="14" />
     <project name="nangis-project/vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="github" revision="14" />
